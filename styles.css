@@ -8,7 +8,7 @@
     "lc cc rc"
     "lb cb rb";
 }
-.left-top {
+#lefttop {
   height: 100px;
   width: 100px;
   grid-area: lt;
