@@ -1,0 +1,64 @@
+.field {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(208, 133, 133);
+  display: grid;
+  grid-template-areas:
+    "lt ct rt"
+    "lc cc rc"
+    "lb cb rb";
+}
+.left-top {
+  height: 100px;
+  width: 100px;
+  grid-area: lt;
+  border: 2px solid black;
+}
+.center-top {
+  height: 100px;
+  width: 100px;
+  grid-area: ct;
+  border: 2px solid black;
+}
+.right-top {
+  height: 100px;
+  width: 100px;
+  grid-area: rt;
+  border: 2px solid black;
+}
+.left-center {
+  height: 100px;
+  width: 100px;
+  grid-area: lc;
+  border: 2px solid black;
+}
+.center-center {
+  height: 100px;
+  width: 100px;
+  grid-area: cc;
+  border: 2px solid black;
+}
+.right-center {
+  height: 100px;
+  width: 100px;
+  grid-area: rc;
+  border: 2px solid black;
+}
+.left-bottom {
+  height: 100px;
+  width: 100px;
+  grid-area: lb;
+  border: 2px solid black;
+}
+.center-bottom {
+  height: 100px;
+  width: 100px;
+  grid-area: cb;
+  border: 2px solid black;
+}
+.right-bottom {
+  height: 100px;
+  width: 100px;
+  grid-area: rb;
+  border: 2px solid black;
+}
