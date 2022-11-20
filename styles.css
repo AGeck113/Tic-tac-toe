@@ -14,7 +14,7 @@
   grid-area: lt;
   border: 2px solid black;
 }
-#center-top {
+.center-top {
   height: 100px;
   width: 100px;
   grid-area: ct;
