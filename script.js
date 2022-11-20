@@ -47,7 +47,7 @@ function select4() {
 function select5() {
   if (count % 2 == 0) {
     centerCenter.style.color = "red";
-    leftTop.innerHTML = "Player 1";
+    centerCenter.innerHTML = "Player 1";
     count++;
   } else {
     centerCenter.style.color = "blue";
