@@ -1,16 +1,16 @@
 function choose() {
   if (count % 2 == 0) {
-    lefttop.style.color = "red";
-    lefttop.innerHTML = "Player 1";
+    leftTop.style.color = "red";
+    leftTop.innerHTML = "Player 1";
     count++;
   } else {
-    lefttop.style.color = "blue";
-    lefttop.innerHTML = "Player 2";
+    leftTop.style.color = "blue";
+    leftTop.innerHTML = "Player 2";
     count++;
   }
 }
 var count = 3;
 
-let testButton = document.querySelector("#test");
+let testButton1 = document.querySelector("#b1");
 
-testButton.addEventListener("click", choose);
+testButton1.addEventListener("click", choose);
