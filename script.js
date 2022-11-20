@@ -1,11 +1,11 @@
 function select1() {
   if (count % 2 == 0) {
     leftTop.style.color = "red";
-    leftTop.innerHTML = "Player 1";
+    leftTop.innerHTML = "X";
     count++;
   } else {
     leftTop.style.color = "blue";
-    leftTop.innerHTML = "Player 2";
+    leftTop.innerHTML = "o";
     count++;
   }
 }
@@ -13,11 +13,11 @@ function select1() {
 function select2() {
   if (count % 2 == 0) {
     centerTop.style.color = "red";
-    centerTop.innerHTML = "Player 1";
+    centerTop.innerHTML = "X";
     count++;
   } else {
     centerTop.style.color = "blue";
-    centerTop.innerHTML = "Player 2";
+    centerTop.innerHTML = "o";
     count++;
   }
 }
@@ -25,77 +25,78 @@ function select2() {
 function select3() {
   if (count % 2 == 0) {
     rightTop.style.color = "red";
-    rightTop.innerHTML = "Player 1";
+    rightTop.innerHTML = "X";
     count++;
   } else {
     rightTop.style.color = "blue";
-    rightTop.innerHTML = "Player 2";
+    rightTop.innerHTML = "o";
     count++;
   }
 }
+
 function select4() {
   if (count % 2 == 0) {
     leftCenter.style.color = "red";
-    leftCenter.innerHTML = "Player 1";
+    leftCenter.innerHTML = "X";
     count++;
   } else {
     leftCenter.style.color = "blue";
-    leftCenter.innerHTML = "Player 2";
+    leftCenter.innerHTML = "o";
     count++;
   }
 }
 function select5() {
   if (count % 2 == 0) {
     centerCenter.style.color = "red";
-    centerCenter.innerHTML = "Player 1";
+    centerCenter.innerHTML = "X";
     count++;
   } else {
     centerCenter.style.color = "blue";
-    centerCenter.innerHTML = "Player 2";
+    centerCenter.innerHTML = "o";
     count++;
   }
 }
 function select6() {
   if (count % 2 == 0) {
     rightCenter.style.color = "red";
-    rightCenter.innerHTML = "Player 1";
+    rightCenter.innerHTML = "X";
     count++;
   } else {
     rightCenter.style.color = "blue";
-    rightCenter.innerHTML = "Player 2";
+    rightCenter.innerHTML = "o";
     count++;
   }
 }
 function select7() {
   if (count % 2 == 0) {
     leftBottom.style.color = "red";
-    leftBottom.innerHTML = "Player 1";
+    leftBottom.innerHTML = "X";
     count++;
   } else {
     leftBottom.style.color = "blue";
-    leftBottom.innerHTML = "Player 2";
+    leftBottom.innerHTML = "o";
     count++;
   }
 }
 function select8() {
   if (count % 2 == 0) {
     centerBottom.style.color = "red";
-    centerBottom.innerHTML = "Player 1";
+    centerBottom.innerHTML = "X";
     count++;
   } else {
     centerBottom.style.color = "blue";
-    centerBottom.innerHTML = "Player 2";
+    centerBottom.innerHTML = "o";
     count++;
   }
 }
 function select9() {
   if (count % 2 == 0) {
     rightBottom.style.color = "red";
-    rightBottom.innerHTML = "Player 1";
+    rightBottom.innerHTML = "X";
     count++;
   } else {
     rightBottom.style.color = "blue";
-    rightBottom.innerHTML = "Player 2";
+    rightBottom.innerHTML = "o";
     count++;
   }
 }

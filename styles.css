@@ -10,6 +10,8 @@
     "lt ct rt"
     "lc cc rc"
     "lb cb rb";
+  font-size: 100px;
+  text-align: center;
 }
 .left-top {
   height: 100px;
